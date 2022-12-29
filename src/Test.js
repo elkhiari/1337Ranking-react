@@ -26,10 +26,6 @@ export default function Test()
               axios(config)
               .then(function (response) {
                 setData(response.data);
-                console.log(response.data);
-              })
-              .catch(function (error) {
-                console.log(error);
               });
         }, []);
 
